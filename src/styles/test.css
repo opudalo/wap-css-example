@@ -1,0 +1,20 @@
+.heading, .title {
+  font-size: 11px;
+  letter-spacing: .1em;
+  text-transform: uppercase
+}
+
+.borderedTop {
+  border-top: 1px solid rgba(0,0,0,0.05)
+}
+
+.borderedTop .content {
+  padding-top: 15px;
+  margin-bottom: 10px
+}
+
+.accent {
+  margin-top: -16px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(0,0,0,0.44)
+}
