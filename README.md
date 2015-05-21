@@ -1,6 +1,6 @@
 # wap-css-example
 Honest modular CSS example. Uses [wap-css](https://github.com/opudalo/wap-css).  
-An example of principles described in (article)[https://medium.com/@opudalo/everyone-who-tried-to-convince-me-to-use-modular-css-was-wrong-including-myself-28961f96f3c4]
+An example of principles described in [article](https://medium.com/@opudalo/everyone-who-tried-to-convince-me-to-use-modular-css-was-wrong-including-myself-28961f96f3c4)
 
 ## Installation and running
 
@@ -18,8 +18,8 @@ grunt serve
 
 ## Webpack loaders configuration
 Two loaders needed. 
-- (apply hashes)[https://github.com/opudalo/wap-css-example/blob/master/loaders/apply_hash.js] to post-process CSS file  
-- (extract hashes)[https://github.com/opudalo/wap-css-example/blob/master/loaders/get_hash.js] as a dictionary  
+- [apply hashes](https://github.com/opudalo/wap-css-example/blob/master/loaders/apply_hash.js) to post-process CSS file  
+- [extract hashes](https://github.com/opudalo/wap-css-example/blob/master/loaders/get_hash.js) as a dictionary  
 
 
 CSS loader configuration:
