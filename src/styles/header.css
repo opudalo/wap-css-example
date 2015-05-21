@@ -1,0 +1,32 @@
+.header {
+  padding: 93px 0 0 0;
+}
+
+.headline {
+  letter-spacing: -.026em;
+  padding: 0 5%;
+  line-height: 1;
+  text-align: center;
+  margin: auto;
+  font-weight: 300;
+  font-size: 56px;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.description {
+  margin: 25px auto 42px;
+  font-size: 27px;
+  max-width: 840px;
+  text-align: center;
+  font-weight: 300;
+  line-height: 36px;
+}
+
+.buttonWrap {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.quoteWrap {
+  text-align: center;
+}

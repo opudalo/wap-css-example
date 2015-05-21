@@ -1,0 +1,11 @@
+.text {
+  display: inline-block;
+  font: italic normal 20px Georgia;
+  text-align: center;
+}
+
+.logo {
+  display: inline-block;
+  text-align: center;
+  margin-left: 15px;
+}
