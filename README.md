@@ -1,5 +1,6 @@
 # wap-css-example
-Honest modular CSS example. Uses [wap-css](https://github.com/opudalo/wap-css). 
+Honest modular CSS example. Uses [wap-css](https://github.com/opudalo/wap-css).  
+An example of principles described in (article)[https://medium.com/@opudalo/everyone-who-tried-to-convince-me-to-use-modular-css-was-wrong-including-myself-28961f96f3c4]
 
 ## Installation and running
 
