@@ -7,6 +7,7 @@
 'use strict';
 
 var webpack = require('webpack');
+var multi = require('multi-loader')
 
 module.exports = {
 
@@ -42,22 +43,16 @@ module.exports = {
   },
 
   module: {
-    preLoaders: [{
-      test: /\.js$/,
-      exclude: /node_modules/,
-      loader: 'jsxhint'
-    }],
-
     loaders: [{
       test: /\.js$/,
       exclude: /node_modules/,
       loader: 'babel-loader'
     }, {
       test: /\.css$/,
-      loader: 'style-loader!css-loader'
-    }, {
-      test: /\.styl/,
-      loader: 'style-loader!stylus-loader!less-loader'
+      loader: multi(
+        'style-loader!css-loader!' + __dirname + '/loaders/apply_hash',
+        __dirname + '/loaders/get_hash'
+      )
     }, {
       test: /\.(png|jpg|woff|woff2)$/,
       loader: 'url-loader?limit=8192'
